@@ -45,10 +45,10 @@ class InstallImageBuilder(object):
     """
     **Installation image builder**
 
-    :param object xml_state: instance of :class:`XMLState`
+    :param XMLState xml_state: instance of :class:`XMLState`
     :param str root_dir: system image root directory
     :param str target_dir: target directory path name
-    :param object boot_image_task: instance of :class:`BootImage`
+    :param BootImage boot_image_task: instance of :class:`BootImage`
     :param dict custom_args: Custom processing arguments defined as hash keys:
         * xz_options: string of XZ compression parameters
     """
